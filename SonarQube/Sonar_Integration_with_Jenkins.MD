@@ -51,7 +51,7 @@ Create a job to test SonarQube. Provide below sonar properties details in the jo
      - sonar.projectName=`ValaxyDemo`
      - sonar.projectVersion=`1.0`
      - sonar.sources=`/var/lib/jenkins/workspace/$JOB_NAME/<PROJECT_NAME>/src`
-
+     - sonar.java.binaries=/var/lib/jenkins/workspace/$JOB_NAME/target/classes/
 Execute job to get analysis report. 
 
 ### Next Step
